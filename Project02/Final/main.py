@@ -22,21 +22,25 @@ x1 = y1 = x2 = y2 = x3 = y3 = 0
 
 #end of test data
 
-#n = int(input("Number of points: "))
-#time = []
-#force = []
-#for i in range(n):
-#    time.append( float(input("Time instant: ")))
-#    force.append( float(input("Force instant: ")))
-#
-#force_points = np.array([time,force]).T
-#masses = (float(input("Mass 1: ")),float(input("Mass 2: ")),float(input("Mass 3: ")))
-#myus = (float(input("Myu 1: ")),float(input("Myu 2: ")),float(input("Myu 3: ")))
-#
-#x1,y1 = (float(input("X10: ")),float(input("Y10: ")))
-#x2,y2 = (float(input("X20: ")),float(input("Y20: ")))
-#x3,y3 = (float(input("X30: ")),float(input("Y30: ")))
 
+
+# Comment the section below to activate the test data
+n = int(input("Number of points: "))
+time = []
+force = []
+for i in range(n):
+    time.append( float(input("Time instant: ")))
+    force.append( float(input("Force instant: ")))
+
+force_points = np.array([time,force]).T
+masses = (float(input("Mass 1: ")),float(input("Mass 2: ")),float(input("Mass 3: ")))
+myus = (float(input("Myu 1: ")),float(input("Myu 2: ")),float(input("Myu 3: ")))
+
+x1,y1 = (float(input("X10: ")),float(input("Y10: ")))
+x2,y2 = (float(input("X20: ")),float(input("Y20: ")))
+x3,y3 = (float(input("X30: ")),float(input("Y30: ")))
+
+# Uncomment the section above to disactivate the test data
 
 
 
